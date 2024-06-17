@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta tags -->
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <!-- External fonts -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> 
+
+  <!-- Title -->
+  <title>Dark Forest Retreat</title>
+  
+</head>
+<body>
+  <!-- Navigation bar -->
+  <nav>
+    <div class="nav__bar">
+      <div class="nav__header">
+        <!-- Logo -->
+        <div class="logo nav__logo">
+          <div>D</div>
+          <span>Dark<br/>Forest Retreat</span>
+        </div>
+        <!-- Menu button -->
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <!-- Navigation links -->
+      <ul class="nav__links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Gallery.html">Photo Gallery</a></li>
+        <li><a href="Amenities.html">Amenities</a></li></li>
+        <li><a href="Booking.html">Booking</a></li>
+        <li><a href="Menu.html">Menu</a></li>
+        <li><a href="Contact-Us.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <!-- Button to scroll to top -->
+  <button id="scrollToTopBtn" onclick="scrollToTop()"><i class="ri-arrow-up-line"></i></button>
+
+  <!-- Header section -->
+  <header class="header" id="home">
+    <div class="section__container header__container">
+      <h1 data-aos="fade-up">Dark Forest Retreat</h1>
+    </div>
+  </header>
+
+  <!-- About section -->
+  <section class="about" id="about">
+    <div class="section__container about__container">
+      <div class="about__grid">
+        <!-- About image and card 1 -->
+        <div class="about__image" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1700">
+          <img src="images/Assets/about._img1.jpg" alt="about" />
+        </div>
+        <div class="about__card">
+          <span><i class="ri-user-line"></i></span>
+          <h4>Strong Team</h4>
+          <p>Unlocking Hospitality Excellence And Ensures Your Perfect Stay</p>
+        </div>
+        <!-- About image and card 2 -->
+        <div class="about__image" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1700">
+          <img src="images/Assets/about_img2.jpg" alt="about" />
+        </div>
+        <div class="about__card">
+          <span><i class="ri-calendar-check-line"></i></span>
+          <h4>Luxury Room</h4>
+          <p>Experience Unrivaled Luxury at Our Exquisite Luxury Rooms</p>
+        </div>
+      </div>
+      <!-- About content -->
+      <div class="about__content">
+        <p class="section__subheader">ABOUT US</p>
+        <h2 class="section__header">Discover Our Underground</h2>
+        <p class="section__description">
+          Amboli Chaukul Retreat offers a blend of nature and hospitality, inviting visitors to explore its lush landscapes by day and enjoy tranquil evenings at Dark Forest Retreat. This hill station boasts hidden waterfalls, yet to be discovered temples, and opportunities for cultural immersion. It's become a popular weekend getaway for people from Goa, Maharashtra, and Karnataka, attracting couples and nature enthusiasts alike. Dark House Retreat provides comfortable accommodation for those eager to explore the flora and fauna of Amboli Chaukul.
+        </p>
+        <!-- Button to book -->
+        <p>
+          <button class="Book_Button1" id="desciption" onclick="redirectToBooking()">Book Now</button>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Room section -->
+  <section class="room__container" id="room">
+    <p class="section__subheader">ROOMS</p>
+    <h2 class="section__header">Hand Picked Rooms</h2>
+    <div class="room__grid">
+      <!-- Room cards -->
+      <div class="room__card" data-aos="fade-up">
+        <img src="images/Assets/Room1.jpg" alt="room" />
+        <div class="room__card__details">
+          <div>
+            <h4>Deluxe </h4>
+            <p>Well-appointed rooms designed for guests who desire a more.</p>
+          </div>
+          <h3>&#8377;2999-3999<span>/night</span></h3>
+        </div>
+      </div>
+      <!-- Room cards -->
+      <div class="room__card" data-aos="fade-up">
+        <img src="images/Assets/Room2.jpg" alt="room" />
+        <div class="room__card__details">
+          <div>
+            <h4>Luxury</h4>
+            <p>Consist of multiple rooms and a common living area.</p>
+          </div>
+          <h3>&#8377;3999-4999<span>/night</span></h3>
+        </div>
+      </div>
+      <!-- Room cards -->
+      <div class="room__card" data-aos="fade-up">
+        <img src="images/Assets/Room3.jpg" alt="room" />
+        <div class="room__card__details">
+          <div>
+            <h4>Premium</h4>
+            <p>Top-tier accommodations usually on the highest floors of a hotel.</p>
+          </div>
+          <h3>&#8377;4999-5999<span>/night</span></h3>
+        </div>
+      </div>
+    </div>
+    <!-- Button to book -->
+    <p>
+      <button class="Book_Button2" id="scrollToFooterButton" onclick="redirectToBooking()">Book Now</button>
+    </p>
+  </section>
+
+  <!-- Intro section -->
+  <section class="intro">
+    <div class="section__container intro__container">
+      <div class="intro__cotent">
+        <p class="section__subheader">INTRO VIDEO</p>
+        <h2 class="section__header">Meet With Our Luxury Place</h2>
+        <p class="section__description">
+          Whether you're seeking a cozy and exclusive hideaway or an immersive journey beneath the surface, Hotel Miranda promises to be an unforgettable stay, where the depths of comfort and excitement await your arrival.
+        </p>
+      </div>
+      <!-- Video -->
+      <div class="intro__video">
+        <video src="images/Assets/video.mp4" autoplay muted loop></video>
+      </div>
+      <!-- Button to book -->
+      <p>
+        <button class="Book_Button3" id="button2" onclick="redirectToBooking()">Book Now</button>
+      </p>
+    </div>
+  </section>
+
+  <!-- Feature section -->
+  <section class="section__container feature__container" id="feature">
+    <p class="section__subheader">FACILITIES</p>
+    <h2 class="section__header">Core Features</h2>
+    <div class="feature__grid">
+      <!-- Feature cards -->
+      <div class="feature__card" data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000">
+        <span><i class="ri-thumb-up-line"></i></span>
+        <h4>Have High Rating</h4>
+        <p>We take pride in curating a selection of hotels that consistently receive high ratings and positive reviews.</p>
+      </div>
+      <!-- Feature cards -->
+      <div class="feature__card" data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000">
+        <span><i class="ri-time-line"></i></span>
+        <h4>Quiet Hours</h4>
+        <p>We understand that peace and uninterrupted rest are essential for a rejuvenating experience.</p>
+      </div>
+      <!-- Feature cards -->
+      <div class="feature__card" data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000">
+        <span><i class="ri-map-pin-line"></i></span>
+        <h4>Best Location</h4>
+        <p>At our hotel booking website, we take pride in offering accommodations in the most prime and sought-after locations.</p>
+      </div>
+      <!-- Feature cards -->
+      <div class="feature__card" data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000">
+        <span><i class="ri-restaurant-fill"></i></span>
+        <h4>Best Food Service</h4>
+        <p>We give best food service for your anytime mood cravings</p>
+      </div>
+      <!-- Feature cards -->
+      <div class="feature__card" data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000">
+        <span><i class="ri-wallet-line"></i></span>
+        <h4>Payment Options</h4>
+        <p>Our hotel booking website offers a range of convenient payment options to suit your preferences.</p>
+      </div>
+      <!-- Feature cards -->
+      <div class="feature__card" data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000">
+        <span><i class="ri-coupon-line"></i></span>
+        <h4>Special Offers</h4>
+        <p>Whether you're planning a romantic getaway, or a business trip, our carefully curated special offers cater to all your needs.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <!-- Footer logo and address -->
+        <div class="logo footer__logo">
+          <div>D</div>
+          <span>Dark Forest Retreat</span>
+        </div>
+        <p class="section__description">
+          H.No.24/4, A/P Chaukul, Amboli-Chaukul Road Amboli Chaukul Chaukul Road, Shirgaonkar Point, Amboli, Maharashtra 416510
+        </p>
+        <!-- Social media links -->
+        <ul class="footer__socials">
+          <li>
+            <a href="https://www.instagram.com/dark_forest_retreat/" target="_blank"><i class="ri-instagram-line"></i></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/darkforestresort" target="_blank"><i class="ri-facebook-fill"></i></a>
+          </li>
+        </ul>
+      </div>
+      <br>
+      <!-- Contact information -->
+      <div class="footer__col">
+        <h4>Contact Us</h4>
+        <div class="footer__links">
+          <li>
+            <span><i class="ri-phone-fill"></i></span>
+            <div>
+              <h5>Phone Number</h5>
+              <p><a href="tel:+91 9404785805">+91 9404785805</a></p>
+            </div>
+          </li>
+          <li>
+            <span><i class="ri-record-mail-line"></i></span>
+            <div>
+              <h5>Email</h5>
+              <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=booking.darkforestretreat@gmail.com" class="reservation-link" target="_blank">Contact us</a></p>
+            </div>
+          </li>
+          <li>
+            <span><i class="ri-map-pin-2-fill"></i></span>
+            <div>
+              <h5>Location</h5>
+              <p>Sindhudurg</p>
+            </div>
+          </li>
+        </div>
+        <!-- Location map -->
+        <div class="Location-frame">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4391.914167719717!2d74.00163367704003!3d15.937439486593584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc077bbd73d7975%3A0x174d2c30752a5f2b!2sDark%20Forest%20Retreat%20Amboli!5e0!3m2!1sen!2sin!4v1705065555765!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="Location"></iframe>
+        </div>
+      </div>
+    </div>
+    <!-- Footer bar -->
+    <div class="footer__bar">
+      © Dark Forest Retreat . All rights reserved.
+    </div>
+  </footer>
+
+  <!-- External scripts -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="main.js"></script>
+</body>
+</html>
